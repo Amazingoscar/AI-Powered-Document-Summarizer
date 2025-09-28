@@ -59,10 +59,5 @@ if st.button("Generate Summary", type="primary"):
                 except Exception as e:
                     st.error(f"An error occurred during summarization: {e}")
 
-# --- Optional: Add a stylish footer ---
-st.markdown(
-    """
-    ---
-    Built for the 30-Day AI Build Challenge.
-    """
-)
+
+
